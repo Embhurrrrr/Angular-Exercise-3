@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Wix+Madefor+Display&display=swap");
+
+.container {
+  font-family: "Kanit", sans-serif;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+.card-container {
+  width: 800px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #e1f5fe;
+}
+
+.card-container mat-card-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-container mat-card-content {
+  margin-top: 10px;
+}
+
+.card-container mat-card-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.card-container mat-card-footer button {
+  margin-left: 10px;
+}
+
+.card-container mat-card-content.comments-section {
+  margin-top: 10px;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+.card-container mat-card-content.comments-section p {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.card-container mat-card-content.comments-section .comment {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 5px;
+}

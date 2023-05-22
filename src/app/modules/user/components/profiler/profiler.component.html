@@ -1,0 +1,24 @@
+<div class="container">
+  <form (ngSubmit)="handleSubmit($event)">
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput [(ngModel)]="email" name="email" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input matInput [(ngModel)]="name" name="name" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Bio</mat-label>
+      <textarea matInput [(ngModel)]="bio" name="bio"></textarea>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Status</mat-label>
+      <mat-select [(ngModel)]="status" name="status">
+        <mat-option value="Active">Active</mat-option>
+        <mat-option value="Inactive">Inactive</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button mat-raised-button class="submit" type="submit">Submit</button>
+  </form>
+</div>

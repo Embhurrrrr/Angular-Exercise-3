@@ -1,0 +1,15 @@
+<ng-container *ngIf="book">
+  <div class="book-details">
+    Book Title: {{ book.name }} <br /><br />
+    Authors: {{ book.authors }} <br /><br />
+    ISBN: {{ book.isbn }}
+  </div>
+  <div class="buttons">
+    <button (click)="sendActionEdit(book.id)" mat-raised-button color="primary">
+      EDIT
+    </button>
+    <button (click)="sendActionDelete(book.id)" mat-raised-button color="warn">
+      DELETE
+    </button>
+  </div>
+</ng-container>

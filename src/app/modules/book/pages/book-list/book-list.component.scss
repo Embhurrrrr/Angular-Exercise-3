@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.mat-grid-list {
+  width: 100%;
+}
+
+.mat-grid-tile {
+  display: flex;
+  align-items: center;
+  background: lightblue;
+}
+
+.tile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-data {
+  margin-bottom: 10px;
+}

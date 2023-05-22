@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Wix+Madefor+Display&display=swap");
+
+.header {
+  background-color: #238add;
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 38rem;
+}
+
+span {
+  font-weight: 400;
+  cursor: pointer;
+}

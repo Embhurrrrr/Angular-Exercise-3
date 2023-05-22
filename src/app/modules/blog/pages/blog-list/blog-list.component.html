@@ -1,0 +1,5 @@
+<div *ngFor="let data of getBlogs()">
+  <div>
+    <app-blog-item [blogInput]="data" (actionEmitter)="getID($event)" />
+  </div>
+</div>

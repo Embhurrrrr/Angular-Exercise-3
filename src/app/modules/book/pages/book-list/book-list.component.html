@@ -1,0 +1,14 @@
+<div class="container">
+  <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let data of getBooks()">
+      <div class="tile-content">
+        <div class="book-data">
+          <app-book-item
+            [bookInput]="data"
+            (actionEmitter)="getID($event)"
+          ></app-book-item>
+        </div>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
